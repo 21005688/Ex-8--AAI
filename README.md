@@ -1,5 +1,5 @@
- <H3>ENTER YOUR NAME</H3>
-<H3>ENTER YOUR REGISTER NO.</H3>
+ <H3>ENTER YOUR NAME:Deepika J</H3>
+<H3>ENTER YOUR REGISTER NO:212221230016</H3>
 <H3>EX. NO.8</H3>
 <H3>DATE:</H3>
 <H1 ALIGN =CENTER>Implementation of Speech Recognition</H1>
@@ -22,9 +22,8 @@ Step 11: Perform speech recognition with exceptional handling:<Br>
 •	A generic exception block captures any other unexpected errors.<Br>
 <H3>Program:</H3>
 
-Insert your code her
+
 
 <H3> Output:</H3>
-Show the results here
 
 <H3> Result:</H3>
