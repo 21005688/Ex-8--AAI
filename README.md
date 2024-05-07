@@ -21,9 +21,33 @@ Step 11: Perform speech recognition with exceptional handling:<Br>
 •	Handle specific exceptions: If the recognition result is unknown or if there is an issue with the request to the Google Speech Recognition service, print corresponding error messages.<Br>
 •	A generic exception block captures any other unexpected errors.<Br>
 <H3>Program:</H3>
-
+```
+import speech_recognition as sr
+def record_audio():
+    r=sr.Recognizer()
+    r.energy_threshold = 6000
+    voicedata=''
+    try:
+        with sr.Microphone() as source:
+            audio=r.listen(source)
+            voicedata=r.recognize_google(audio)            
+    except sr.UnknownValueError:
+        print("Unable to Recognize Audio")
+    except sr.RequestError:
+        print("Unable to find the Resource")
+    return voicedata
+while True:
+    print("Say Something ....")
+    text=record_audio()
+    print(text)
+    if text=="stop" or text=="close" or text=="exit":
+        exit(1)
+```
+        
 
 
 <H3> Output:</H3>
+![image](https://github.com/21005688/Ex-8--AAI/assets/94747031/a9259afc-f42f-45b1-8efc-8c61fc0d5ce7)
 
 <H3> Result:</H3>
+Thus, The implementation of speech recognition is executed successfully.
