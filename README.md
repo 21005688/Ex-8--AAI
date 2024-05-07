@@ -47,7 +47,8 @@ while True:
 
 
 <H3> Output:</H3>
-![image](https://github.com/21005688/Ex-8--AAI/assets/94747031/a9259afc-f42f-45b1-8efc-8c61fc0d5ce7)
+
+![py](https://github.com/21005688/Ex-8--AAI/assets/94747031/32047ee1-95cf-4d84-8417-1eecf5822458)
 
 <H3> Result:</H3>
 Thus, The implementation of speech recognition is executed successfully.
